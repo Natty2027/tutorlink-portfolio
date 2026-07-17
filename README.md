@@ -4,8 +4,7 @@
 
 TutorLink lets students search for tutors by course, browse tutor profiles (GPA, major, year, availability), and send tutoring requests. Tutors can create listings for the courses they're qualified to teach. Built as a full-stack web application using a **Backend-for-Frontend (BFF)** architecture.
 
-<!-- Add a screenshot or GIF here for the strongest portfolio impression:
-![TutorLink home](application/frontend/public/hero-img.png) -->
+![TutorLink home page](application/frontend/public/home-screenshot.png)
 
 ---
 
@@ -49,6 +48,16 @@ This keeps concerns separated, keeps secrets server-side, and lets the frontend 
 
 - Node.js 18+
 - MySQL 8+
+
+### Quick start (one command)
+
+With MySQL installed and the two env files in place (see below), start the whole stack from the project root:
+
+```bash
+./start.sh
+```
+
+This launches MySQL, the backend API (`:3001`), and the frontend (`:3000`), and stops all three with `Ctrl-C`. For the manual, step-by-step setup, follow the sections below.
 
 ### 1. Backend
 
