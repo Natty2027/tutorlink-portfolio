@@ -17,6 +17,16 @@ TutorLink lets students search for tutors by course, browse tutor profiles (GPA,
 - **Member & tutor profile pages** — dynamic routes for individual tutors and team members
 - **Health check endpoint** — verifies API and database connectivity
 
+## Screenshots
+
+**Tutor search** — browse and filter tutor listings by course, GPA, rate, and availability:
+
+![Tutor search page](application/frontend/public/search-screenshot.png)
+
+**Tutor profile** — course, GPA, hourly rate, bio, and availability, with one-click contact:
+
+![Tutor profile page](application/frontend/public/tutor-screenshot.png)
+
 ## Tech Stack
 
 | Layer        | Technologies                                                        |
